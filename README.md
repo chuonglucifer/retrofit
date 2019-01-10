@@ -1,4 +1,6 @@
-Giới thiệu
+## Giới thiệu 
+
+
 Trang chủ: https://square.github.io/retrofit/
 Retrofit là một Rest Client (cần tìm hiểu về restful api trước để nắm rõ hơn) cho Android và Java được tạo bởi Square. Thư việc giúp việc nhận và tải JSON (hoặc dữ liệu khác) một các khá dễ dàng với Webservice dựa trên mô hình REST.
 Các gói trang bị bộ chuyển đổi gồm: Gson, Jackson, Moshi, Protobuf, Wire, Simple XML
