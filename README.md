@@ -50,24 +50,6 @@ public class ApiClient {
 }
 
 Tiến hành gọi api:
-API Sign Up (POST)
-    Retrofit retrofit = APIClient.getClient();
-
-    RequestApi callApi = retrofit.create(RequestApi.class);
-
-    Call<Result> call = callApi.signUp(userData);
-
-    call.enqueue(this);
-        
-    @Override
-    public void onResponse(Call<Result> call, Response<Result> response) {
-        // Xử lý response server trả về khi sign up ở đây
-    }
-
-    @Override
-    public void onFailure(Call<Result> call, Throwable t) {
-        // Xử lý khi gọi api bị lỗi
-    }
 API Get info (GET)
        ApiInterface apiService =
                 ApiClient.getClient().create(ApiInterface.class);
